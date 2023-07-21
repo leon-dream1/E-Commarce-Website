@@ -1,0 +1,159 @@
+
+/*Common Css Part Start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a,p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#000000;
+}
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/*Common Css Part End*/
+
+/*navbar Css Part Start*/
+.navbar-nav .nav-item .nav-link{
+    color: #707070;
+   font-size: 20px;
+   font-weight: 400;
+   padding: 0 25px;
+   display: block;
+}
+
+.banner_part{
+    padding: 100px 0;
+}
+
+.bg-1{
+    background-image: url(/assets/images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bg-2{
+    background-image: url(/assets/images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.banner_part_bio{
+    padding: 10px 70px 10px 0;
+}
+.banner_part_bio h2{
+    color: #1f1f1f;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.banner_part_bio p{
+    font-size: 20px;
+    color: #707070;
+    font-weight: 300;
+    padding-bottom: 40px;
+    line-height: 45px;
+}
+.banner_part_bio button{
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.banner_part_bio a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: rgb(35, 35, 71);
+}
+/*navbar Css Part end*/
+
+
+/*phone Css Part Start*/
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.heading p{
+    color: #1f1f1f;
+    font-size: 30px;
+    font-weight: 500;
+}
+.card{
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 8px 10px 15px gray;
+}
+.card-body h5{
+    color: #1f1f1f;
+}
+.card-body p{
+    color: #707070;
+}
+
+.heading h5{
+    color: #ff9d00;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-body button{
+    background-color: black;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+.card-body a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+/*phone Css Part End*/
+
+
+/*Catagories Css Part Start*/
+.main_heading{
+    position: relative;
+}
+.main_heading h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #ffac2c;
+    top: 50px;
+    left: 46%;
+    border-radius: 15px;
+}
+
+.main_image{
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 8px 10px 15px gray;
+    border-radius: 10px;
+}
+.resize{
+    padding:58px 81px;
+}
+/*Catagories Css Part End*/
